@@ -19,5 +19,4 @@ async function greet() {
 
   <p>{{ greetMsg }}</p>
 
-  <iframe src="/games/joguinho1/game.html"></iframe>
 </template>
