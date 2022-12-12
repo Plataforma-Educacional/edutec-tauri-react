@@ -11,8 +11,10 @@ const BaseLayout: React.FC<Props> = ({ children }) => {
   return (
     <>
       <NavBar />
-      <Outlet />
-      {children}
+      <div className="bg-base transition-all">
+        <Outlet />
+        {children}
+      </div>
       <Footer />
     </>
   )
