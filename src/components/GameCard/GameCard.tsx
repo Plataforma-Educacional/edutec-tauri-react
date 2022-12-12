@@ -2,7 +2,7 @@ import React, { useState, Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { WebviewWindow } from '@tauri-apps/api/window'
 
-interface Game {
+export interface Game {
     id: number;
     name: string;
     href: string;

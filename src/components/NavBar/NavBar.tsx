@@ -1,13 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import DarkModeToggle from './DarkModeToggle'
+import DarkModeToggle from '../DarkModeToggle/DarkModeToggle'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Jogos Educacionais', href: '/', current: true },
+  { name: 'Aulas Interativas', href: '/aulas', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -48,9 +47,9 @@ const NavBar: React.FC = () => {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
+                        to={item.href}
                         className={classNames(
                           item.current
                             ? 'bg-gray-900 text-white'
@@ -60,7 +59,7 @@ const NavBar: React.FC = () => {
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
