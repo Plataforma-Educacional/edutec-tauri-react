@@ -15,10 +15,22 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "rootDir": "src",
+    "baseUrl": "src",
     "paths": {
       "@/*": [
-        "./src/*"
+        "./*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
+      "@pages/*": [
+        "./pages/*"
+      ],
+      "@layouts/*": [
+        "./layouts/*"
+      ],
+      "@assets/*": [
+        "./assets/*"
       ]
     }
   },
