@@ -12,4 +12,8 @@ const gameMock: Game = {
   description: 'Game Description',
 }
 
-export const Primary = () => <GameCard game={gameMock} />
+export const Primary = () => (
+  <div className='max-w-xs'>
+    <GameCard game={gameMock} />
+  </div>
+)

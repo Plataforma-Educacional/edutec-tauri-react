@@ -1,6 +1,6 @@
 const { loadConfigFromFile, mergeConfig } = require('vite')
 const path = require('path')
-const tsConfigPaths = require("vite-plugin-tsconfig-paths")
+const tsConfigPaths = require('vite-plugin-tsconfig-paths')
 
 module.exports = {
   stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
@@ -8,6 +8,8 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
+    '@storybook/addon-backgrounds',
+    'storybook-addon-themes',
     {
       name: '@storybook/addon-postcss',
       cssLoaderOptions: {
