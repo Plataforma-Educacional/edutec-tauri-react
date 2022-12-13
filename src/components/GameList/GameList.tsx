@@ -63,7 +63,7 @@ const GameList: React.FC<Props> = ({ alt }) => {
   }
   return (
     <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-      <h2 className="text-2xl font-bold tracking-tight text-text">
+      <h2 className="text-2xl font-bold tracking-tight text-ctp-text">
         Jogos Educacionais
       </h2>
 

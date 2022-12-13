@@ -43,7 +43,7 @@ const GameCard: React.FC<Props> = ({ game }) => {
       </div>
       <div className="mt-4 flex justify-between">
         <div>
-          <h3 className="text-md text-text hover:text-blue font-bold">
+          <h3 className="text-md text-ctp-text hover:text-ctp-blue font-bold">
             <button onClick={() => setOpen(true)}>
               <span aria-hidden="true" className="absolute inset-0" />
               {game.name}
@@ -62,7 +62,7 @@ const GameCard: React.FC<Props> = ({ game }) => {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="fixed inset-0 bg-base bg-opacity-75 transition-opacity" />
+            <div className="fixed inset-0 bg-ctp-base bg-opacity-75 transition-opacity" />
           </Transition.Child>
 
           <div className="fixed inset-0 z-10 overflow-y-auto">
@@ -76,7 +76,7 @@ const GameCard: React.FC<Props> = ({ game }) => {
                 leaveFrom="opacity-100 translate-y-0 sm:scale-100"
                 leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
               >
-                <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-base text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-ctp-base text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
                   <figure className="md:flex rounded-xl p-8 md:p-0">
                     <img
                       className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
@@ -87,21 +87,21 @@ const GameCard: React.FC<Props> = ({ game }) => {
                     />
                     <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
                       <blockquote>
-                        <p className="text-lg font-medium text-text">
+                        <p className="text-lg font-medium text-ctp-text">
                           {game.description}
                         </p>
                       </blockquote>
                       <div className="px-4 p-y-10 sm:flex sm:flex-row-reverse sm:px-6">
                         <button
                           type="button"
-                          className="rounded-md px-4 py-2 text-base font-medium shadow-sm bg-green focus:outline-none focus:ring-2 focus:ring-green sm:ml-3 sm:w-auto sm:text-sm"
+                          className="rounded-md px-4 py-2 text-ctp-base font-medium shadow-sm bg-ctp-green focus:outline-none focus:ring-2 focus:ring-green sm:ml-3 sm:w-auto sm:text-sm"
                           onClick={() => openGame(game.href + 'index.html')}
                         >
                           Jogar
                         </button>
                         <button
                           type="button"
-                          className="rounded-md bg-overlay0 px-4 py-2 font-medium text-base sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
+                          className="rounded-md bg-ctp-overlay0 px-4 py-2 font-medium text-ctp-base sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
                           onClick={() => setOpen(false)}
                         >
                           Fechar

@@ -2,16 +2,16 @@ import React, { useState, useEffect } from 'react'
 
 const DarkModeToggle: React.FC = () => {
   const [dark, setDark] = useState(
-    document.documentElement.classList.contains('mocha'),
+    document.documentElement.classList.contains('ctp-mocha'),
   )
 
   async function toggleDarkMode() {
     if (dark) {
-        document.documentElement.classList.remove('mocha')
-        document.documentElement.classList.add('latte')
+        document.documentElement.classList.remove('ctp-mocha')
+        document.documentElement.classList.add('ctp-latte')
     } else {
-        document.documentElement.classList.add('mocha')
-        document.documentElement.classList.remove('latte')
+        document.documentElement.classList.add('ctp-mocha')
+        document.documentElement.classList.remove('ctp-latte')
     }
     setDark(!dark)
   }
