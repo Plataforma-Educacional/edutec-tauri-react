@@ -18,7 +18,7 @@ const GameCard: React.FC<Props> = ({ game }) => {
 
   async function openGame(url: string) {
     const webview = new WebviewWindow('Game', {
-      url: '/games/joguinho1/index.html',
+      url: url,
     })
     // since the webview window is created asynchronously,
     // Tauri emits the `tauri://created` and `tauri://error` to notify you of the creation response
@@ -43,7 +43,7 @@ const GameCard: React.FC<Props> = ({ game }) => {
       </div>
       <div className="mt-4 flex justify-between">
         <div>
-          <h3 className="text-md text-ctp-text hover:text-ctp-blue font-bold">
+          <h3 className="text-md text-ctp-text hover:text-ctp-lavender font-bold">
             <button onClick={() => setOpen(true)}>
               <span aria-hidden="true" className="absolute inset-0" />
               {game.name}
