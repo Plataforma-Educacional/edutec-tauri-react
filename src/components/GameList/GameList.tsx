@@ -8,59 +8,11 @@ interface Game {
   description: string
 }
 
-const games: Game[] = [
-  {
-    id: 1,
-    name: 'Mascote Cilarico',
-    href: '/games/joguinho1/',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, mauris vitae tincidunt aliquam, leo mauris tincidunt turpis, et malesuada felis nibh sed est.',
-  },
-  {
-    id: 2,
-    name: 'Jigsa Bilgiatan',
-    href: '/games/joguinho1/',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, mauris vitae tincidunt aliquam, leo mauris tincidunt turpis, et malesuada felis nibh sed est.',
-  },
-  {
-    id: 3,
-    name: 'Jigsa Bilgiatan',
-    href: '/games/joguinho1/',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, mauris vitae tincidunt aliquam, leo mauris tincidunt turpis, et malesuada felis nibh sed est.',
-  },
-  {
-    id: 4,
-    name: 'Jigsa Bilgiatan',
-    href: '/games/joguinho1/',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, mauris vitae tincidunt aliquam, leo mauris tincidunt turpis, et malesuada felis nibh sed est.',
-  },
-  {
-    id: 5,
-    name: 'Jigsa Bilgiatan',
-    href: '/games/joguinho1/',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, mauris vitae tincidunt aliquam, leo mauris tincidunt turpis, et malesuada felis nibh sed est.',
-  },
-  {
-    id: 6,
-    name: 'Jigsa Bilgiatan',
-    href: '/games/joguinho1/',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum, mauris vitae tincidunt aliquam, leo mauris tincidunt turpis, et malesuada felis nibh sed est.',
-  },
-]
-
 type Props = {
-  alt?: boolean
+  games: Game[]
 }
 
-const GameList: React.FC<Props> = ({ alt }) => {
-  if (alt) {
-    return <></>
-  }
+const GameList: React.FC<Props> = ({ games }) => {
   return (
     <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
       <h2 className="text-2xl font-bold tracking-tight text-ctp-text">
