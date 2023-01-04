@@ -19,7 +19,7 @@ const GameList: React.FC<Props> = ({ games }) => {
         Jogos Educacionais
       </h2>
 
-      <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+      <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 xl:gap-x-8">
         {games.map((game: Game, index) => (
           <div key={index} className="group relative">
             <GameCard game={game} />

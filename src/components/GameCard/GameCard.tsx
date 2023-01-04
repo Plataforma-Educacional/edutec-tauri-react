@@ -2,6 +2,7 @@ import React, { useState, Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { WebviewWindow } from '@tauri-apps/api/window'
 import XMarkIcon from '@heroicons/react/24/outline/XMarkIcon';
+import PlayIcon from '@/assets/PlayIcon'
 
 export interface Game {
   id: number;
@@ -105,11 +106,20 @@ const GameCard: React.FC<Props> = ({ game }) => {
                       </div>
                       <div className="relative mt-6 flex-1">
                         <div>
-                          <img
-                            className="w-full max-h-96 object-cover object-center md:rounded-none rounded-full mx-auto"
-                            src={game.href + 'thumb.jpg'}
-                            alt={game.name}
-                          />
+                          <button
+                            type="button"
+                            className="relative"
+                            onClick={() => openGame(game.href + 'index.html')}
+                          >
+                            <img
+                              className="w-full max-h-96 object-cover object-center mx-auto"
+                              src={game.href + 'thumb.jpg'}
+                              alt={game.name}
+                            />
+                            <div className='absolute flex items-center justify-center top-0 left-0 w-full h-full bg-[#0000004e] opacity-0 hover:opacity-100 transition-all'>
+                              <PlayIcon className='fill-ctp-base ' />
+                            </div>
+                          </button>
                         </div>
                         <div className="px-6 py-4 text-left space-y-4">
                           <blockquote>
@@ -117,22 +127,6 @@ const GameCard: React.FC<Props> = ({ game }) => {
                               {game.description}
                             </p>
                           </blockquote>
-                          <div className="px-4 p-y-10 sm:flex sm:flex-row-reverse sm:px-6">
-                            <button
-                              type="button"
-                              className="rounded-md px-4 py-2 text-ctp-base font-medium shadow-sm bg-ctp-green focus:outline-none focus:ring-2 focus:ring-green sm:ml-3 sm:w-auto sm:text-sm"
-                              onClick={() => openGame(game.href + 'index.html')}
-                            >
-                              Jogar
-                            </button>
-                            <button
-                              type="button"
-                              className="rounded-md bg-ctp-overlay0 px-4 py-2 font-medium text-ctp-base sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
-                              onClick={() => setOpen(false)}
-                            >
-                              Fechar
-                            </button>
-                          </div>
                         </div>
                       </div>
                     </div>
