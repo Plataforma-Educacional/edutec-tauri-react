@@ -116,11 +116,19 @@ const GameCard: React.FC<Props> = ({ game }) => {
                           </button>
                         </div>
                         <div className="px-6 py-4 text-left space-y-4">
-                          <blockquote>
-                            <p className="text-lg font-medium text-ctp-text">
-                              {game.title}
+                          <div className='flex'>
+                            <p className="py-1 px-2 text-md rounded-full bg-ctp-crust font-medium text-ctp-text">
+                              {game.comp}
                             </p>
-                          </blockquote>
+                          </div>
+                          <ul className="list-disc px-6 font-medium text-ctp-text">
+                            <p className="text-lg ml-[-16px] font-bold text-ctp-text">
+                              BNCC
+                            </p>
+                            {game.BNCC.map((bncc) =>
+                              <li className='py-4 border-b-2 border-ctp-crust' key={bncc}>{bncc}</li>
+                            )}
+                          </ul>
                         </div>
                       </div>
                     </div>
