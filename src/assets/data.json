@@ -1,0 +1,328 @@
+{
+  "stages": [
+    {
+      "title": "Maternal",
+      "games": [
+        {
+          "title": "Contação de história - Um passarinho me contou",
+          "type": "AULA",
+          "comp": [
+            "Língua Portuguesa"
+          ],
+          "BNCC": [
+            "EI01EF08 - Participar de situações de escuta de textos em diferentes gêneros textuais (poemas, fábulas, contos, receitas, quadrinhos, anúncios etc.).Participar de situações de escuta de textos em diferentes gêneros textuais (poemas, fábulas, contos, receitas, quadrinhos, anúncios etc.).",
+            "EI02EF03 - Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita).Demonstrar interesse e atenção ao ouvir a leitura de histórias e outros textos, diferenciando escrita de ilustrações, e acompanhando, com orientação do adulto-leitor, a direção da leitura (de cima para baixo, da esquerda para a direita",
+            "EI03EF07 - Levantar hipóteses sobre gêneros textuais veiculados em portadores conhecidos, recorrendo a estratégias de observação gráfica e/ou de leitura.Levantar hipóteses sobre gêneros textuais veiculados em portadores conhecidos, recorrendo a estratégias de observação gráfica e/ou de leitura.",
+            "EF15LP16 - Leitura colaborativa e autônoma. Leitura/escuta (compartilhada e autônoma).Ler e compreender, em colaboração com os colegas e com a ajuda do professor e, mais tarde, de maneira autônoma, textos narrativos de maior porte como contos (populares, de fadas, acumulativos, de assombração etc.) e crônicas."
+          ]
+        },
+        {
+          "title": "Causa e efeito",
+          "type": "JOGO",
+          "comp": [
+            "Espaços, Tempos, Quantidades, Relações E Transformações"
+          ],
+          "BNCC": [
+            "EI01ET02 - Explorar relações de causa e efeito (transbordar, tingir, misturar, mover e remover etc.) na interação com o mundo físico.Explorar relações de causa e efeito (transbordar, tingir, misturar, mover e remover etc.) na interação com o mundo físico."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "1° Nível - Educação Infantil",
+      "games": [
+        {
+          "title": "Coordenação motora fina: Pontilhado e tracejado",
+          "type": "AULA",
+          "comp": [
+            "Corpo, Gestos E Movimentos"
+          ],
+          "BNCC": [
+            "EI02CG02 - Deslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes naturezas.Deslocar seu corpo no espaço, orientando-se por noções como em frente, atrás, no alto, embaixo, dentro, fora etc., ao se envolver em brincadeiras e atividades de diferentes naturezas.",
+            "EI03CG02 - Demonstrar controle e adequação do uso de seu corpo em brincadeiras e jogos, escuta e reconto de histórias, atividades artísticas, entre outras possibilidades.Demonstrar controle e adequação do uso de seu corpo em brincadeiras e jogos, escuta e reconto de histórias, atividades artísticas, entre outras possibilidades."
+          ]
+        },
+        {
+          "title": "Ateliê criativo - Desenho livre - Comidas I",
+          "type": "JOGO",
+          "comp": [
+            "Espaços, Tempos, Quantidades, Relações E Transformações"
+          ],
+          "BNCC": [
+            "EI03EO04 - Comunicar suas ideias e sentimentos a pessoas e grupos diversos.Comunicar suas ideias e sentimentos a pessoas e grupos diversos.",
+            "EI03CG01 - Criar com o corpo formas diversificadas de expressão de sentimentos, sensações e emoções, tanto nas situações do cotidiano quanto em brincadeiras, dança, teatro, música.Criar com o corpo formas diversificadas de expressão de sentimentos, sensações e emoções, tanto nas situações do cotidiano quanto em brincadeiras, dança, teatro, música.",
+            "EI03CG03 - Criar movimentos, gestos, olhares e mímicas em brincadeiras, jogos e atividades artísticas como dança, teatro e música.Criar movimentos, gestos, olhares e mímicas em brincadeiras, jogos e atividades artísticas como dança, teatro e música.",
+            "EI03CG02 - Demonstrar controle e adequação do uso de seu corpo em brincadeiras e jogos, escuta e reconto de histórias, atividades artísticas, entre outras possibilidades.Demonstrar controle e adequação do uso de seu corpo em brincadeiras e jogos, escuta e reconto de histórias, atividades artísticas, entre outras possibilidades.",
+            "EI03CG05 - Coordenar suas habilidades manuais no atendimento adequado a seus interesses e necessidades em situações diversas.Coordenar suas habilidades manuais no atendimento adequado a seus interesses e necessidades em situações diversas.",
+            "EI03TS02 - Expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais.Expressar-se livremente por meio de desenho, pintura, colagem, dobradura e escultura, criando produções bidimensionais e tridimensionais.",
+            "EI03EF01 - Expressar ideias, desejos e sentimentos sobre suas vivências, por meio da linguagem oral e escrita (escrita espontânea), de fotos, desenhos e outras formas de expressão.Expressar ideias, desejos e sentimentos sobre suas vivências, por meio da linguagem oral e escrita (escrita espontânea), de fotos, desenhos e outras formas de expressão."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2° Nível - Educação Infantil",
+      "games": [
+        {
+          "title": "Suportes textuais",
+          "type": "AULA",
+          "comp": [
+            "Escuta, Fala, Pensamento E Imaginação"
+          ],
+          "BNCC": [
+            "EI01EF07 - Conhecer e manipular materiais impressos e audiovisuais em diferentes portadores (livro, revista, gibi, jornal, cartaz, CD, tablet etc.).Conhecer e manipular materiais impressos e audiovisuais em diferentes portadores (livro, revista, gibi, jornal, cartaz, CD, tablet etc.).",
+            "EI02EF07 - Manusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais.Manusear diferentes portadores textuais, demonstrando reconhecer seus usos sociais.",
+            "EI02EF08 - Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.).Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.)."
+          ]
+        },
+        {
+          "title": "Jogo da Memória: Moradia",
+          "type": "JOGO",
+          "comp": [
+            "Espaços, Tempos, Quantidades, Relações E Transformações"
+          ],
+          "BNCC": [
+            "EI03ET01 - Estabelecer relações de comparação entre objetos, observando suas propriedades.Estabelecer relações de comparação entre objetos, observando suas propriedades."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "1° Ano - Ensino Fundamental I",
+      "games": [
+        {
+          "title": "O Jardim Encantado IV - Sílabas do O",
+          "type": "AULA",
+          "comp": [
+            "Língua Portuguesa"
+          ],
+          "BNCC": [
+            "EF01LP07 - Construção do sistema alfabético e da ortografia Análise linguística/semiótica (Alfabetização)Identificar fonemas e sua representação por letras.",
+            "EF01LP08 - Construção do sistema alfabético e da ortografia Análise linguística/semiótica (Alfabetização)Relacionar elementos sonoros (sílabas, fonemas, partes de palavras) com sua representação escrita."
+          ]
+        },
+        {
+          "title": "Consciência silábica: palavras com M",
+          "type": "JOGO",
+          "comp": [
+            "Escuta, Fala, Pensamento E Imaginação"
+          ],
+          "BNCC": [
+            "EI02EF08 - Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.).Manipular textos e participar de situações de escuta para ampliar seu contato com diferentes gêneros textuais (parlendas, histórias de aventura, tirinhas, cartazes de sala, cardápios, notícias etc.).",
+            "EI03EF09 - Levantar hipóteses em relação à linguagem escrita, realizando registros de palavras e textos, por meio de escrita espontâneaLevantar hipóteses em relação à linguagem escrita, realizando registros de palavras e textos, por meio de escrita espontânea"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2° Ano - Ensino Fundamental I",
+      "games": [
+        {
+          "title": "O tempo",
+          "type": "AULA",
+          "comp": [
+            "Ciências Da Natureza"
+          ],
+          "BNCC": [
+            "EF01CI05 - Escalas de tempo Identificar e nomear diferentes escalas de tempo: os períodos diários (manhã, tarde, noite) e a sucessão de dias, semanas, meses e anos.",
+            "EF01CI06 - Escalas de tempo Selecionar exemplos de como a sucessão de dias e noites orienta o ritmo de atividades diárias de seres humanos e de outros seres vivos."
+          ]
+        },
+        {
+          "title": "História da Copa",
+          "type": "JOGO",
+          "comp": [
+            "Educação Física"
+          ],
+          "BNCC": [
+            "EF12EF01 - Brincadeiras e jogos da cultura popular presentes no contexto comunitário e regional Experimentar, fruir e recriar diferentes brincadeiras e jogos da cultura popular presentes no contexto comunitário e regional, reconhecendo e respeitando as diferenças individuais de desempenho dos colegas.",
+            "EF35EF04 - Brincadeiras e jogos populares do Brasil e do mundo Brincadeiras e jogos de matriz indígena e africana Recriar, individual e coletivamente, e experimentar, na escola e fora dela, brincadeiras e jogos populares do Brasil e do mundo, incluindo aqueles de matriz indígena e africana, e demais práticas corporais tematizadas na escola, adequando-as aos espaços públicos disponíveis."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3° Ano - Ensino Fundamental I",
+      "games": [
+        {
+          "title": "Emprego do CH, NH e LH",
+          "type": "AULA",
+          "comp": [
+            "Língua Portuguesa"
+          ],
+          "BNCC": [
+            "EF03LP03 - Construção do sistema alfabético e da ortografia. Análise linguística/semiótica (Ortografização). Ler e escrever corretamente palavras com os dígrafos lh, nh, ch.",
+            "EF04LP01 - Construção do sistema alfabético e da ortografia Análise linguística/semiótica (Ortografização) Grafar palavras utilizando regras de correspondência fonema--grafema regulares diretas e contextuais."
+          ]
+        },
+        {
+          "title": "Formação das cidades: patrimônio histórico",
+          "type": "JOGO",
+          "comp": [
+            "História"
+          ],
+          "BNCC": [
+            "EF03HI04 - Os patrimônios históricos e culturais da cidade e/ou do município em que vive Identificar os patrimônios históricos e culturais de sua cidade ou região e discutir as razões culturais, sociais e políticas para que assim sejam considerados.",
+            "EF03HI09 - A cidade, seus espaços públicos e privados e suas áreas de conservação ambiental Mapear os espaços públicos no lugar em que vive (ruas, praças, escolas, hospitais, prédios da Prefeitura e da Câmara de Vereadores etc.) e identificar suas funções."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4° Ano - Ensino Fundamental I",
+      "games": [
+        {
+          "title": "Jogos e brincadeiras de origem Africana e Indígena",
+          "type": "AULA",
+          "comp": [
+            "Educação Física"
+          ],
+          "BNCC": [
+            "EF35EF01 - Brincadeiras e jogos populares do Brasil e do mundo Brincadeiras e jogos de matriz indígena e africana Experimentar e fruir brincadeiras e jogos populares do Brasil e do mundo, incluindo aqueles de matriz indígena e africana, e recriá-los, valorizando a importância desse patrimônio histórico cultural.",
+            "EF35EF03 - Brincadeiras e jogos populares do Brasil e do mundo Brincadeiras e jogos de matriz indígena e africana Descrever, por meio de múltiplas linguagens (corporal, oral, escrita, audiovisual), as brincadeiras e os jogos populares do Brasil e de matriz indígena e africana, explicando suas características e a importância desse patrimônio histórico cultural na preservação das diferentes culturas.",
+            "EF35EF04 - Brincadeiras e jogos populares do Brasil e do mundo Brincadeiras e jogos de matriz indígena e africana Recriar, individual e coletivamente, e experimentar, na escola e fora dela, brincadeiras e jogos populares do Brasil e do mundo, incluindo aqueles de matriz indígena e africana, e demais práticas corporais tematizadas na escola, adequando-as aos espaços públicos disponíveis."
+          ]
+        },
+        {
+          "title": "Todo mundo pode fazer o bem - Parte III: Lixeiras",
+          "type": "JOGO",
+          "comp": [
+            "Ciências Da Natureza"
+          ],
+          "BNCC": [
+            "EF03GE08 - Produção, circulação e consumo. Relacionar a produção de lixo doméstico ou da escola aos problemas causados pelo consumo excessivo e construir propostas para o consumo consciente, considerando a ampliação de hábitos de redução, reúso e reciclagem/ descarte de materiais consumidos em casa, na escola e/ou no entorno.",
+            "EF04GE08 - Produção, circulação e consumo. Descrever e discutir o processo de produção (transformação de matérias-primas), circulação e consumo de diferentes produtos.",
+            "EF05CI05 - Propriedades físicas dos materiais Ciclo hidrológico Consumo consciente Reciclagem Construir propostas coletivas para um consumo mais consciente e criar soluções tecnológicas para o descarte adequado e a reutilização ou reciclagem de materiais consumidos na escola e/ou na vida cotidiana."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5° Ano - Ensino Fundamental I",
+      "games": [
+        {
+          "title": "O texto teatral",
+          "type": "AULA",
+          "comp": [
+            "Língua Portuguesa"
+          ],
+          "BNCC": [
+            "EF35LP21 - Formação do leitor literário Leitura/escuta (compartilhada e autônoma) Ler e compreender, de forma autônoma, textos literários de diferentes gêneros e extensões, inclusive aqueles sem ilustrações, estabelecendo preferências por gêneros, temas, autores.",
+            "EF35LP24 - Textos dramáticos Leitura/escuta (compartilhada e autônoma)Identificar funções do texto dramático (escrito para ser encenado) e sua organização por meio de diálogos entre personagens e marcadores das falas das personagens e de cena."
+          ]
+        },
+        {
+          "title": "Matrizes energéticas",
+          "type": "JOGO",
+          "comp": [
+            "Geografia"
+          ],
+          "BNCC": [
+            "EF05GE07 - Trabalho e inovação tecnológica. Identificar os diferentes tipos de energia utilizados na produção industrial, agrícola e extrativa e no cotidiano das populações."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6° Ano - Ensino Fundamental II",
+      "games": [
+        {
+          "title": "Camadas da Terra",
+          "type": "AULA",
+          "comp": [
+            "Ciências Da Natureza"
+          ],
+          "BNCC": [
+            "EF06CI11 - Forma, estrutura e movimentos da Terra Identificar as diferentes camadas que estruturam o planeta Terra (da estrutura interna à atmosfera) e suas principais características."
+          ]
+        },
+        {
+          "title": "Sistema nervoso",
+          "type": "JOGO",
+          "comp": [
+            "Ciências Da Natureza"
+          ],
+          "BNCC": [
+            "EF06CI07 - Célula como unidade da vida Interação entre os sistemas locomotor e nervoso Lentes corretivas Justificar o papel do sistema nervoso na coordenação das ações motoras e sensoriais do corpo, com base na análise de suas estruturas básicas e respectivas funções."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7° Ano - Ensino Fundamental II",
+      "games": [
+        {
+          "title": "Materiais condutores e isolantes de calor",
+          "type": "AULA",
+          "comp": [
+            "Ciências Da Natureza"
+          ],
+          "BNCC": [
+            "EF07CI02 - Máquinas simples Formas de propagação do calor Equilíbrio termodinâmico e vida na Terra História dos combustíveis e das máquinas térmicas Diferenciar temperatura, calor e sensação térmica nas diferentes situações de equilíbrio termodinâmico cotidianas.",
+            "EF07CI03 - Máquinas simples Formas de propagação do calor Equilíbrio termodinâmico e vida na Terra História dos combustíveis e das máquinas térmicas Utilizar o conhecimento das formas de propagação do calor para justificar a utilização de determinados materiais (condutores e isolantes) na vida cotidiana, explicar o princípio de funcionamento de alguns equipamentos (garrafa térmica, coletor solar etc.) e/ou construir soluções tecnológicas a partir desse conhecimento."
+          ]
+        },
+        {
+          "title": "Variedades linguísticas",
+          "type": "JOGO",
+          "comp": [
+            "Língua Portuguesa"
+          ],
+          "BNCC": [
+            "EF69LP55 - Variação linguística Análise linguística/semiótica Reconhecer as variedades da língua falada, o conceito de norma-padrão e o de preconceito linguístico."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8° Ano - Ensino Fundamental II",
+      "games": [
+        {
+          "title": "Renascimento cultural e científico",
+          "type": "AULA",
+          "comp": [
+            "História"
+          ],
+          "BNCC": [
+            "EF07HI04 - Humanismos: uma nova visão de ser humano e de mundo Renascimentos artísticos e culturais Identificar as principais características dos Humanismos e dos Renascimentos e analisar seus significados."
+          ]
+        },
+        {
+          "title": "O impacto da poluição do ar na saúde",
+          "type": "JOGO",
+          "comp": [
+            "Ciências Da Natureza"
+          ],
+          "BNCC": [
+            "EF07CI09 - Diversidade de ecossistemas Fenômenos naturais e impactos ambientais Programas e indicadores de saúde pública Interpretar as condições de saúde da comunidade, cidade ou estado, com base na análise e comparação de indicadores de saúde (como taxa de mortalidade infantil, cobertura de saneamento básico e incidência de doenças de veiculação hídrica, atmosférica entre outras) e dos resultados de políticas públicas destinadas à saúde."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "9° Ano - Ensino Fundamental II",
+      "games": [
+        {
+          "title": "Modelos atômicos",
+          "type": "AULA",
+          "comp": [
+            "Ciências Da Natureza"
+          ],
+          "BNCC": [
+            "EF09CI03 - Aspectos quantitativos das transformações químicas Estrutura da matéria Radiações e suas aplicações na saúde Identificar modelos que descrevem a estrutura da matéria (constituição do átomo e composição de moléculas simples) e reconhecer sua evolução histórica."
+          ]
+        },
+        {
+          "title": "Números irracionais",
+          "type": "JOGO",
+          "comp": [
+            "Matemática"
+          ],
+          "BNCC": [
+            "EF09MA02 - Necessidade dos números reais para medir qualquer segmento de reta Números irracionais: reconhecimento e localização de alguns na reta numérica Reconhecer um número irracional como um número real cuja representação decimal é infinita e não periódica, e estimar a localização de alguns deles na reta numérica."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,13 +3,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { WebviewWindow } from '@tauri-apps/api/window'
 import XMarkIcon from '@heroicons/react/24/outline/XMarkIcon';
 import PlayIcon from '@/assets/PlayIcon'
-
-export interface Game {
-  id: number;
-  name: string;
-  href: string;
-  description: string;
-}
+import { Game } from '@/types';
 
 type Props = {
   game: Game
@@ -20,7 +14,7 @@ const GameCard: React.FC<Props> = ({ game }) => {
 
   async function openGame(url: string) {
     const webview = new WebviewWindow('Game', {
-      url: url,
+      url: `/games/${url}/index.html`,
     })
     // since the webview window is created asynchronously,
     // Tauri emits the `tauri://created` and `tauri://error` to notify you of the creation response
@@ -38,8 +32,8 @@ const GameCard: React.FC<Props> = ({ game }) => {
     <>
       <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-base group-hover:opacity-75 lg:aspect-none lg:h-80">
         <img
-          src={game.href + 'thumb.jpg'}
-          alt={game.name}
+          src={'/games/' + game.title + '/thumb.jpg'}
+          alt={game.title}
           className="h-full w-full object-cover object-center lg:h-full lg:w-full"
         />
       </div>
@@ -48,7 +42,7 @@ const GameCard: React.FC<Props> = ({ game }) => {
           <h3 className="text-md text-ctp-text hover:text-ctp-lavender font-bold">
             <button onClick={() => setOpen(true)}>
               <span aria-hidden="true" className="absolute inset-0" />
-              {game.name}
+              {game.title}
             </button>
           </h3>
         </div>
@@ -102,19 +96,19 @@ const GameCard: React.FC<Props> = ({ game }) => {
                     </Transition.Child>
                     <div className="flex h-full flex-col overflow-y-scroll bg-ctp-base shadow-xl">
                       <div className="px-4 sm:px-6 mb-[-106px] z-10 bg-gradient-to-b from-ctp-crust via-ctp-mantle pt-2 pb-12 opacity-90">
-                        <Dialog.Title className="text-lg font-medium text-ctp-text">{game.name}</Dialog.Title>
+                        <Dialog.Title className="text-lg font-medium text-ctp-text">{game.title}</Dialog.Title>
                       </div>
                       <div className="relative mt-6 flex-1">
                         <div>
                           <button
                             type="button"
                             className="relative"
-                            onClick={() => openGame(game.href + 'index.html')}
+                            onClick={() => openGame(game.title)}
                           >
                             <img
                               className="w-full max-h-96 object-cover object-center mx-auto"
-                              src={game.href + 'thumb.jpg'}
-                              alt={game.name}
+                              src={'/games/' + game.title + '/thumb.jpg'}
+                              alt={game.title}
                             />
                             <div className='absolute flex items-center justify-center top-0 left-0 w-full h-full bg-[#0000004e] opacity-0 hover:opacity-100 transition-all'>
                               <PlayIcon className='fill-ctp-base ' />
@@ -124,7 +118,7 @@ const GameCard: React.FC<Props> = ({ game }) => {
                         <div className="px-6 py-4 text-left space-y-4">
                           <blockquote>
                             <p className="text-lg font-medium text-ctp-text">
-                              {game.description}
+                              {game.title}
                             </p>
                           </blockquote>
                         </div>

@@ -5,8 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import DarkModeToggle from '../DarkModeToggle/DarkModeToggle'
 
 const navigation = [
-  { name: 'Jogos Educacionais', href: '/' },
-  { name: 'Aulas Interativas', href: '/aulas' },
+  { name: 'Jogos Educacionais', href: '/' }
 ]
 
 function classNames(...classes: string[]) {
