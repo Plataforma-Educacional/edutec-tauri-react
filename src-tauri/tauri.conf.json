@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "edutec-tauri-react",
-    "version": "0.0.0"
+    "productName": "Projetinho Fellas",
+    "version": "0.1.0"
   },
   "tauri": {
     "allowlist": {
@@ -57,7 +57,7 @@
         "fullscreen": false,
         "height": 768,
         "resizable": true,
-        "title": "edutec-tauri-react",
+        "title": "Portal Educacional",
         "width": 1024
       }
     ]
