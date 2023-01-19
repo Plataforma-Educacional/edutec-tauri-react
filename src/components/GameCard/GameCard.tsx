@@ -15,6 +15,7 @@ const GameCard: React.FC<Props> = ({ game }) => {
   async function openGame(url: string) {
     const webview = new WebviewWindow('Game', {
       url: `/games/${url}/index.html`,
+      fullscreen: true,
     })
     // since the webview window is created asynchronously,
     // Tauri emits the `tauri://created` and `tauri://error` to notify you of the creation response
