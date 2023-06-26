@@ -20,6 +20,7 @@ tauri = {version = "1.4.1", features = ["window-create", "window-set-fullscreen"
 dotenvy = "0.15.7"
 diesel = { version = "2.1.0", features = ["sqlite"] }
 diesel_migrations = { version = "2.1.0", features = ["sqlite"] }
+libsqlite3-sys = { version = "0.26.0", features = ["bundled", "bundled-windows"] }
 
 [features]
 # by default Tauri runs in production mode
