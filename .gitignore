@@ -26,3 +26,4 @@ public/games
 stories
 storybook-static
 src-tauri/database.sqlite
+.env
